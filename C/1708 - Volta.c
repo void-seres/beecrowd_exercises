@@ -4,12 +4,12 @@ int calculaVolta(int x, int y);
 
 int main()
 {
-	int x, y, runs;
+	int x, y, laps;
 
 	scanf("%d%*c%d%*c", &x, &y);
 
-	runs = calculaVolta(x, y);
-	printf("%d\n", runs);
+	laps = calculaVolta(x, y);
+	printf("%d\n", laps);
 
 	return 0;
 }
