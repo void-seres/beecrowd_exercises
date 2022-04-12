@@ -23,7 +23,6 @@ int main()
 }
 
 int VerificaC(int *v)
-
 {
     int i, flag;
 
@@ -57,6 +56,6 @@ int VerificaD(int *v)
             break;
         }
     }
-
+    
     return flag;
 }
