@@ -2,7 +2,7 @@ package com.void_seres_;
 
 import java.util.Scanner;
 
-public class Consumo {
+public class Ex1014Consumo {
     public static void main(String[] args) {
         int x;
         double y, gas;
