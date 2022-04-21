@@ -1,4 +1,4 @@
-package com.void_seres_.;
+package com.void_seres_;
 
 import java.util.Scanner;
 
