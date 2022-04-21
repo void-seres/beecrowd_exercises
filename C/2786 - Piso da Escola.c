@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
 	int l, c, t1, t2;
 	
 	scanf("%d%*c%d%*c", &l, &c);
