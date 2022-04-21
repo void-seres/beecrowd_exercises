@@ -14,8 +14,8 @@ int main() {
 }
 
 int calculaVolta(int x, int y) {
-	// acumulates the difference between x and y until this difference, represented by aux, is bigger than x
-	// acumula a diferença entre x e y até que essa diferença, representada por aux, seja maior que x
+	// Accumulates the difference between x and y until this difference, represented by aux, is bigger than x.
+	// Acumula a diferença entre x e y até que essa diferença, representada por aux, seja maior que x.
 	int volta = 1, aux = 0;
 
 	while(aux < x) {
