@@ -50,3 +50,10 @@ VALUES
 	(8,  'wood'),
 	(9,  'super luxury'),
 	(10, 'vintage');
+
+-- Atualização da tabela "products" para adequação ao problema
+ALTER TABLE products
+ADD COLUMN id_providers INT,
+ADD COLUMN id_categories INT,
+ADD CONSTRAINT fk_products_providers FOREIGN KEY (id_providers) REFERENCES providers(id),
+ADD CONSTRAINT fk_products_categories FOREIGN KEY (id_categories) REFERENCES categories(id);
