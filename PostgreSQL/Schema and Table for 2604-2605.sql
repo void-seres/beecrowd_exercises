@@ -7,7 +7,7 @@ CREATE TABLE products (
   price   DECIMAL(10,2)
 );
 
-INSERT INTO products (id, name, amount, price)
+INSERT INTO products
 VALUES
   (1, 'Two-door wardrobe',  100,    80),
   (2, 'Dining table',       1000,   560),
