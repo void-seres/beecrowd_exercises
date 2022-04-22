@@ -55,5 +55,5 @@ VALUES
 ALTER TABLE products
 ADD COLUMN id_providers INT,
 ADD COLUMN id_categories INT,
-ADD CONSTRAINT fk_products_providers FOREIGN KEY (id_providers) REFERENCES providers(id),
-ADD CONSTRAINT fk_products_categories FOREIGN KEY (id_categories) REFERENCES categories(id);
+ADD FOREIGN KEY (id_providers) REFERENCES providers(id),
+ADD FOREIGN KEY (id_categories) REFERENCES categories(id);
