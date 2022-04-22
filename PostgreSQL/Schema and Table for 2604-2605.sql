@@ -53,6 +53,7 @@ VALUES
 	(9,  'super luxury'),
 	(10, 'vintage');
 
+-- Table "products" updated in order to suit it to the problem
 -- Atualização da tabela "products" para adequação ao problema
 ALTER TABLE products
 ADD COLUMN id_providers INT,
