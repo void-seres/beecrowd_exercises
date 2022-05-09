@@ -1,5 +1,5 @@
--- Creating schema and table for problem 2604
--- Criando esquema e tabela para o problema 2604
+-- Creating schema and table for problem 2604 and 2608
+-- Criando esquema e tabela para o problema 2604 e 2608
 CREATE TABLE products (
   id      INT PRIMARY KEY,
   name    VARCHAR (100),
