@@ -16,8 +16,8 @@ VALUES
   (5, 'Chair',              3000,   210.64),
   (6, 'Single bed',         750,    99);
   
--- Creating schemas and tables for problem 2605
--- Criando esquemas e tabelas para o problema 2605
+-- Creating schemas and tables for problems 2605, 2606 and 2607
+-- Criando esquemas e tabelas para o problemas 2605, 2606 e 2607
 CREATE TABLE providers (
   id      INT PRIMARY KEY,
   name    VARCHAR(100),
@@ -53,8 +53,8 @@ VALUES
 	(9,  'super luxury'),
 	(10, 'vintage');
 
--- Table "products" updated in order to suit it to the problem
--- Atualização da tabela "products" para adequação ao problema
+-- Table "products" updated in order to suit it to the problems
+-- Atualização da tabela "products" para adequação aos problemas
 ALTER TABLE products
 ADD COLUMN id_providers INT,
 ADD COLUMN id_categories INT,
